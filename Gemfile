@@ -1,9 +1,10 @@
 source "https://rubygems.org"
 
+gem "rest-client"
+
 group "development" do
   gem "pry"
   gem "pry-nav"
-  gem "rest-client"
 end
 
 group "test" do
